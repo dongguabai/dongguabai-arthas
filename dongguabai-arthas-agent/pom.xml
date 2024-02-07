@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>dongguabai-arthas</artifactId>
-        <groupId>blog.dongguabai</groupId>
+        <groupId>io.github.dongguabai</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -34,11 +34,11 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>blog.dongguabai.arthas.Agent</mainClass>
+                            <mainClass>io.github.dongguabai.arthas.Agent</mainClass>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                         <manifestEntries>
-                            <Agent-Class>blog.dongguabai.arthas.Agent</Agent-Class>
+                            <Agent-Class>io.github.dongguabai.arthas.Agent</Agent-Class>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>
                     </archive>
@@ -49,10 +49,10 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>blog.dongguabai.arthas.Agent</mainClass>
+                            <mainClass>io.github.dongguabai.arthas.Agent</mainClass>
                         </manifest>
                         <manifestEntries>
-                            <Agent-Class>blog.dongguabai.arthas.Agent</Agent-Class>
+                            <Agent-Class>io.github.dongguabai.arthas.Agent</Agent-Class>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>
                     </archive>

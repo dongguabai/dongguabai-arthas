@@ -1,4 +1,4 @@
-package blog.dongguabai.arthas;
+package io.github.dongguabai.arthas;
 
 import javassist.ClassPool;
 import javassist.CtClass;
